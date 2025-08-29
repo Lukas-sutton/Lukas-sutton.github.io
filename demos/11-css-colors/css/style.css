@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: rgb(189, 58, 6);
+}
+
+#second-paragraph {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+#span-1 {
+    color: darkblue;
+}
+
+#span-2 {
+    color: darkorchid;
+    background-color: yellow;
+}
