@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+span {
+    background-color: aquamarine;
+    /* display inline */
+}
+
+div {
+    background-color: gold;
+    /* display inline */
+}
+.narrow {
+    width: 200px;
+    display: inline-block;
+}

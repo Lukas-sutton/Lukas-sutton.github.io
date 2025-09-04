@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background-color: (lightgray);
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.black {
+    background-color: black;
+    box-shadow: inset 4px 4px 50px rgb(90, 87, 1);
+    border: 10px groove rgb(138, 138, 138);
+}
+
+.red { 
+    background-color: red;
+    box-shadow: inset 4px 4px 50px rgb(38, 2, 2);
+    border: 10px groove rgb(73, 2, 2);
+    
+}
+
+.skin {
+    background-color: rgb(206, 203, 136);
+    box-shadow: inset 4px 4px 50px rgb(98, 98, 54);
+    border: 10px groove rgb(173, 170, 116);
+}
+
+.blue {
+    background-color: blue;
+    box-shadow: inset 4px 4px 50px rgb(7, 7, 66);
+    border: 10px groove rgb(13, 12, 81);
+    
+}
+
+.brown {
+    background-color: rgb(87, 73, 23);
+    box-shadow: inset 4px 4px 50px rgb(124, 69, 2);
+    border: 10px groove rgb(34, 29, 11);
+    background: radial-gradient(rgb(147, 101, 0), rgb(148, 129, 21) 50%);
+}
+
+.white {
+    background-color: white;
+    box-shadow: inset 4px 4px 25px rgb(96, 95, 95);
+    border: 10px groove rgb(84, 84, 84); 
+}
+
+.yellow {
+    background-color: rgb(251, 255, 0);
+    box-shadow: inset 4px 4px 50px rgb(88, 88, 58);
+    border: 10px groove rgb(177, 145, 0);
+    background: radial-gradient(rgb(248, 255, 57), gold 50%);
+    
+}
