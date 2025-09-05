@@ -1,0 +1,19 @@
+.post-it {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(251, 255, 5);
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(14, 152, 211);
+}
+
+.red {
+    background-color: rgb(244, 0, 0);
+}
+
+.img {
+    margin-top: 20px;
+}
