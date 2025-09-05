@@ -2,18 +2,37 @@
     display: inline-block;
     width: 200px;
     height: 200px;
-    background-color: rgb(251, 255, 5);
+    background: linear-gradient(to top, yellow, green);
     text-align: center;
+    margin-right: 12px;
+    box-shadow: 4px 4px rgba(2, 1, 1, 0.393);
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .blue {
-    background-color: rgb(14, 152, 211);
+    background: linear-gradient(to top, rgb(11, 251, 255),rgb(3, 107, 218));
+    transform: rotate(5deg);
 }
 
 .red {
     background-color: rgb(244, 0, 0);
+    padding: 20px;
+    text-decoration: underline;
+    transform: rotate(9deg);
+    background: linear-gradient(to top, rgb(255, 0, 0), rgb(193, 26, 26));
 }
 
 .img {
     margin-top: 20px;
+    background-color: aliceblue;
+    transform: rotate(-5deg);
+}
+    
+#poster {
+    justify-content: center;
+    margin-left: 300px;
+    transform: rotate(45deg);
+    box-shadow: 4px 4px rgba(2, 1, 1, 0.393);
 }
