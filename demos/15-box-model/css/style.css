@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    border: 10px dashed rgb(146, 205, 223);
+    padding: 0px 12px;
+    width: 200px;
+    border-width: 6px;
+    border-top-style:dotted ;
+    border-right-color: rgb(255, 21, 21);
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-block-end: 202px;
+    padding-inline-end: 30px;
+    padding-block-start: 50px;
+    border-radius: 20px;
+
+}
+
+.knight {
+       margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 250px;
+    border-radius: 20px;
+    border-color: aqua;
+    border: dotted;
+    border-width: 12px;
+    border-color: blueviolet;
+    padding-right: 20px;
+    padding-left: 40px;
+    border-radius: 24px,24px,24px;
+}
+
+#demo-div {
+    border-bottom: 20px;
+    margin-left: 20px;
+    border-color: blue;
+    border-radius: 25px;
+}
+
+#demo-div1 {
+    border-bottom: 20px;
+    margin-left: 96px;
+    border-color: blue;
+    border-radius: 25px;
+}

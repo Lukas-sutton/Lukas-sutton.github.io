@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#joe-wall {
+    background-image: url(../images/joe-woods.jpg);
+    margin: 24px;
+    padding: 24px;
+}
+
+#img-1 {
+    width: 120px;
+    margin: 20px;
+    background-color:  wheat;
+    padding: 12px;
+    border-style: double;
+    box-shadow: inset 12px;
+    box-shadow: 4px 4px rgba(2, 1, 1, 0.393);
+}
+
+#img-2 {
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 90px;
+    background-color:  wheat;
+    padding: 12px;
+    box-shadow: 4px 4px rgba(2, 1, 1, 0.393);
+    border-style: double;
+    border-color: rgb(70, 51, 10);
+}
+
+#h2-1 {
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;
+    background-color:  wheat;
+    padding: 12px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 4px 4px rgba(2, 1, 1, 0.393);
+    border-style: double;
+    border-width: 5px;
+}
+
+#img-3 {
+    width: 120px;
+    border-radius: 10%;
+    margin: 20px;
+    margin-left: 150px;
+    background-color:  wheat;
+    padding: 12px;
+    box-shadow: 4px 4px rgba(2, 1, 1, 0.393);
+    border-style: double;
+    border-color: rgb(70, 51, 10);
+    
+}
