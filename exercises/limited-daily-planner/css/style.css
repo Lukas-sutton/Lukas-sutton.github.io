@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(58, 250, 250);
+    text-decoration: none;
+    display: inline-block;
+}
+li {
+    margin: 12px;
+}
+.complete {
+    text-decoration: line-through;
+}
+.important {
+    color: red;
+    font-weight: bolder;
+    background-color: black;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+div {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20%;
+    margin-right: 300px;
+}
+li {
+    border-color: black;
+}
+
+#morning {
+    background-color: rgb(118, 118, 245);
+}
+
+#afternoon {
+    background-color: rgb(118, 245, 120);
+}
+
+#evening {
+    background-color: rgb(245, 184, 118);
+}
+ul {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 22%;
+}
