@@ -11,14 +11,25 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 12px;
+    padding: 20px;
+    display: inline-block;
 }
+
 .button {
     text-decoration: none;
     color: aliceblue;
     padding: 6px;
     border-radius: 20px;
-    border
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px black;
+    font-family: "Delicious Handrawn";
+    
+}
+
+img {
+    width: 300px;
+    border-radius: 12px;
 }
 
 .snack {
@@ -35,12 +46,30 @@ p {
     text-decoration: underline;
 }
 
-.snack.a{
-    background-color: aqua;
+.snack.a {
+    background-color: rgb(0, 233, 233);
+    color: rgb(177, 122, 39);
 }
-.button.a{
+
+.button.a {
     background-color: rgb(255, 0, 0);
 }
+
 .snack.b {
     background-color: orange;
+    color: rgb(73, 139, 139);
 }
+
+.button.b {
+    background-color: rgb(16, 202, 19);
+}
+
+.snack.c {
+    background-color: rgb(8, 148, 191);
+    color: rgb(142, 47, 30);
+}
+
+.button.c {
+    background-color: rgb(154, 66, 213);
+}
+
