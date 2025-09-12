@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+.button {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 20px;
+    border
+}
+
+.snack {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Delicious Handrawn";
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Sour Gummy", sans-serif;
+    text-decoration: underline;
+}
+
+.snack.a{
+    background-color: aqua;
+}
+.button.a{
+    background-color: rgb(255, 0, 0);
+}
+.snack.b {
+    background-color: orange;
+}
