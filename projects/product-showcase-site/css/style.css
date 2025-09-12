@@ -24,6 +24,7 @@ body {
     border-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 1px black;
     font-family: "Delicious Handrawn";
+    display: inline-block;
     
 }
 
