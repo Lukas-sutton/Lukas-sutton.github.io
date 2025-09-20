@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* the 4 things needed for heros line 12-15 */
+#centered-hero {
+    background-image: url("../images/stars-on-velvet.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero .hero-content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+
+#side-hero {
+    background-image: url("../images/lonely-ocean.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding: 12%;
+}
+
+#contrast-hero {
+    background-image: url("../images/placid-waters.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 8vh;
+}
+
+#contrast-hero .hero-content {
+    background-color: rgba(255, 255, 255, 0.601);
+    padding: 24px;
+    text-align: center;
+    border-radius: 24px;
+
+}
