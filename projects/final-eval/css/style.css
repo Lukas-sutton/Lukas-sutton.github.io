@@ -55,16 +55,14 @@ body {
 
 .important {
     text-decoration: underline;
-    color: rgb(255, 162, 0);
-    font-weight: bolder;
+    color: rgb(238, 189, 105);
 }
 
 #button-section {
     padding-top: 20px;
+    padding-bottom: 12px;
 }
 
 #heading {
     font-family: "Asset", serif;
-    font-weight: 400;
-    font-style: normal;
 }
