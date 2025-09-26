@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+#nav #logo-container {
+    margin-right: auto;
+}
+
+
+#centered-hero {
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#centered-hero .hero-content {
+    color: rgb(38, 255, 0);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+#c-t-a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 23px;
+    text-align: center;
+    box-shadow: 5px 5px 5px green;
+}
+
+#layout {
+    max-width: 1000px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: rgb(179, 172, 172);
+    padding: 12px;
+    border: rgb(0, 0, 0) groove 6px;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card {
+    border: 4px solid rgb(1, 1, 1);
+    padding: 12px;
+    text-align: center;
+    margin: 26px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(179, 172, 172) ;
+    border-radius: 14px;
+    padding-bottom: 22px;
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    padding: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:640px) {
+    #layout h2 {
+        font-size: 440x;
+    }
+
+    #horizontal-masonry-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    #card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content h1 {
+        font-size: 20px;
+    }
+
+    #layout h2 {
+        font-size: 32px;
+    }
+}
